@@ -12,7 +12,7 @@ const AVAILABLE_METRICS = {
   'avg_profit': 'Avg Profit %',
   'total_profit_usdt': 'Tot Profit USDT',
   'total_profit_percent': 'Tot Profit %',
-  'avg_duration': 'Avg Duration',
+  // 'avg_duration': 'Avg Duration',
   'wins': 'Wins',
   'draws': 'Draws',
   'losses': 'Losses',

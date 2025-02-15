@@ -1,0 +1,319 @@
+{
+  "strategies": [
+    {
+      "id": "StochDeviate_v1_1",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 62,
+        "k_20_12_12": 45,
+        "k_5_3_3": 40,
+        "max_deviation": 1.274,
+        "min_deviation": 0.189,
+        "signal_threshold": 0.794,
+        "slow_ma": 40,
+        "volume_multiplier": 2.841,
+        "volume_period": 15,
+        "weight_10_6_6": 0.495,
+        "weight_20_12_12": 0.27,
+        "weight_5_3_3": 0.37
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 112,
+        "wins": 23,
+        "draws": 0,
+        "losses": 89,
+        "win_rate": 20.5,
+        "avg_profit": 2.94,
+        "total_profit_usdt": -99.327,
+        "total_profit_percent": -9.93,
+        "avg_duration": "7:19:00",
+        "drawdown": 72.56,
+        "drawdown_usdt": 2180.194
+      }
+    },
+    {
+      "id": "StochDeviate_v1_2",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 40,
+        "k_20_12_12": 46,
+        "k_5_3_3": 68,
+        "max_deviation": 1.11,
+        "min_deviation": 0.204,
+        "signal_threshold": 0.489,
+        "slow_ma": 40,
+        "volume_multiplier": 3.476,
+        "volume_period": 48,
+        "weight_10_6_6": 0.48,
+        "weight_20_12_12": 0.297,
+        "weight_5_3_3": 0.674
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 162,
+        "wins": 37,
+        "draws": 0,
+        "losses": 125,
+        "win_rate": 22.8,
+        "avg_profit": 3.79,
+        "total_profit_usdt": 1275.293,
+        "total_profit_percent": 127.53,
+        "avg_duration": "8:13:00",
+        "drawdown": 84.22,
+        "drawdown_usdt": 9876.404
+      }
+    },
+    {
+      "id": "StochDeviate_v1_3",
+      "params": {
+        "fast_ma": 10,
+        "k_10_6_6": 42,
+        "k_20_12_12": 34,
+        "k_5_3_3": 55,
+        "max_deviation": 0.945,
+        "min_deviation": 0.393,
+        "signal_threshold": 0.444,
+        "slow_ma": 40,
+        "volume_multiplier": 3.275,
+        "volume_period": 47,
+        "weight_10_6_6": 0.447,
+        "weight_20_12_12": 0.211,
+        "weight_5_3_3": 0.387
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 149,
+        "wins": 33,
+        "draws": 0,
+        "losses": 116,
+        "win_rate": 22.1,
+        "avg_profit": 1.59,
+        "total_profit_usdt": -424.289,
+        "total_profit_percent": -42.43,
+        "avg_duration": "7:05:00",
+        "drawdown": 92.62,
+        "drawdown_usdt": 7222.707
+      }
+    },
+    {
+      "id": "StochDeviate_v1_4",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 27,
+        "k_20_12_12": 34,
+        "k_5_3_3": 67,
+        "max_deviation": 1.307,
+        "min_deviation": 0.172,
+        "signal_threshold": 0.45,
+        "slow_ma": 40,
+        "volume_multiplier": 3.491,
+        "volume_period": 47,
+        "weight_10_6_6": 0.482,
+        "weight_20_12_12": 0.134,
+        "weight_5_3_3": 0.457
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 174,
+        "wins": 45,
+        "draws": 0,
+        "losses": 129,
+        "win_rate": 25.9,
+        "avg_profit": 4.55,
+        "total_profit_usdt": 3657.451,
+        "total_profit_percent": 365.75,
+        "avg_duration": "8:34:00",
+        "drawdown": 60.29,
+        "drawdown_usdt": 7071.822
+      }
+    },
+    {
+      "id": "StochDeviate_v1_5",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 58,
+        "k_20_12_12": 50,
+        "k_5_3_3": 30,
+        "max_deviation": 1.288,
+        "min_deviation": 0.196,
+        "signal_threshold": 0.425,
+        "slow_ma": 40,
+        "volume_multiplier": 3.47,
+        "volume_period": 48,
+        "weight_10_6_6": 0.439,
+        "weight_20_12_12": 0.195,
+        "weight_5_3_3": 0.456
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 170,
+        "wins": 38,
+        "draws": 0,
+        "losses": 132,
+        "win_rate": 22.4,
+        "avg_profit": 3.35,
+        "total_profit_usdt": 634.999,
+        "total_profit_percent": 63.5,
+        "avg_duration": "7:45:00",
+        "drawdown": 76.84,
+        "drawdown_usdt": 5425.856
+      }
+    },
+    {
+      "id": "StochDeviate_v1_6",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 34,
+        "k_20_12_12": 50,
+        "k_5_3_3": 64,
+        "max_deviation": 1.217,
+        "min_deviation": 0.203,
+        "signal_threshold": 0.402,
+        "slow_ma": 40,
+        "volume_multiplier": 3.451,
+        "volume_period": 47,
+        "weight_10_6_6": 0.415,
+        "weight_20_12_12": 0.222,
+        "weight_5_3_3": 0.63
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 170,
+        "wins": 40,
+        "draws": 0,
+        "losses": 130,
+        "win_rate": 22.4,
+        "avg_profit": 3.72,
+        "total_profit_usdt": 1308.378,
+        "total_profit_percent": 130.84,
+        "avg_duration": "7:57:00",
+        "drawdown": 76.98,
+        "drawdown_usdt": 6268.316
+      }
+    },
+    {
+      "id": "StochDeviate_v1_7",
+      "params": {
+        "fast_ma": 10,
+        "k_10_6_6": 39,
+        "k_20_12_12": 41,
+        "k_5_3_3": 55,
+        "max_deviation": 0.951,
+        "min_deviation": 0.372,
+        "signal_threshold": 0.402,
+        "slow_ma": 40,
+        "volume_multiplier": 3.454,
+        "volume_period": 47,
+        "weight_10_6_6": 0.454,
+        "weight_20_12_12": 0.171,
+        "weight_5_3_3": 0.389
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 147,
+        "wins": 29,
+        "draws": 0,
+        "losses": 118,
+        "win_rate": 19.7,
+        "avg_profit": 0.82,
+        "total_profit_usdt": -656.274,
+        "total_profit_percent": -65.63,
+        "avg_duration": "6:39:00",
+        "drawdown": 94.26,
+        "drawdown_usdt": 5646.997
+      }
+    },
+    {
+      "id": "StochDeviate_v1_8",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 46,
+        "k_20_12_12": 30,
+        "k_5_3_3": 70,
+        "max_deviation": 1.475,
+        "min_deviation": 0.145,
+        "signal_threshold": 0.498,
+        "slow_ma": 40,
+        "volume_multiplier": 3.456,
+        "volume_period": 48,
+        "weight_10_6_6": 0.28,
+        "weight_20_12_12": 0.187,
+        "weight_5_3_3": 0.602
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 155,
+        "wins": 35,
+        "draws": 0,
+        "losses": 120,
+        "win_rate": 22.6,
+        "avg_profit": 2.11,
+        "total_profit_usdt": -194.134,
+        "total_profit_percent": -19.41,
+        "avg_duration": "7:46:00",
+        "drawdown": 80.57,
+        "drawdown_usdt": 3341.477
+      }
+    },
+    {
+      "id": "StochDeviate_v1_9",
+      "params": {
+        "fast_ma": 15,
+        "k_10_6_6": 32,
+        "k_20_12_12": 40,
+        "k_5_3_3": 57,
+        "max_deviation": 1.157,
+        "min_deviation": 0.199,
+        "signal_threshold": 0.459,
+        "slow_ma": 40,
+        "volume_multiplier": 3.477,
+        "volume_period": 48,
+        "weight_10_6_6": 0.48,
+        "weight_20_12_12": 0.18,
+        "weight_5_3_3": 0.625
+      },
+      "test_period": {
+        "start_date": "2024-01-01",
+        "end_date": "2025-01-31"
+      },
+      "results": {
+        "trades": 177,
+        "wins": 40,
+        "draws": 0,
+        "losses": 137,
+        "win_rate": 22.6,
+        "avg_profit": 3.56,
+        "total_profit_usdt": 1050.564,
+        "total_profit_percent": 105.06,
+        "avg_duration": "8:00:00",
+        "drawdown": 83.22,
+        "drawdown_usdt": 8315.603
+      }
+    }
+  ]
+}
